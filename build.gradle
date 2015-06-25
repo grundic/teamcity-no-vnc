@@ -42,6 +42,7 @@ project(':no-vnc-server') {
         testRuntime "org.jetbrains.teamcity:tests-support:$teamCityVersion"
 
         provided "org.atmosphere:atmosphere-runtime:2.2.4"
+        compile "com.netiq:websockify:1.5"
         compile "com.google.code.gson:gson:2.3.1"
     }
 

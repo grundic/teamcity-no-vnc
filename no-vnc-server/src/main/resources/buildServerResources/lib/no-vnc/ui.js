@@ -94,7 +94,7 @@ var UI;
             UI.initSetting('resize', 'off');
             UI.initSetting('shared', true);
             UI.initSetting('view_only', false);
-            UI.initSetting('path', 'websockify');
+            UI.initSetting('path', 'app/no-vnc/websockify');
             UI.initSetting('repeaterID', '');
 
             var autoconnect = WebUtil.getQueryVar('autoconnect', false);
